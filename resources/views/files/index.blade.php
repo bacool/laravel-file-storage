@@ -10,6 +10,8 @@
 <div class="container mt-5">
     <h2>File Upload</h2>
     <form id="uploadForm" enctype="multipart/form-data">
+	    @csrf  
+
         <input type="file" name="file" id="file" class="form-control mb-2">
         <button type="submit" class="btn btn-primary">Upload</button>
     </form>
